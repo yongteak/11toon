@@ -49,7 +49,7 @@ serise1(URL,PageNum,Acc) ->
 
 extract([],Acc) -> Acc;
 extract([{<<"button">>,Prop,_}|T],Acc) ->
-    Base = <<"http://11toon.com/bbs">>,
+    Base = <<"http://11toon4.com/bbs">>,
     Location = proplists:get_value(<<"onclick">>,Prop),
     SubSize = erlang:size(Location) - 17,
     <<_:16/binary,Bin1:(SubSize)/binary,_/binary>> = Location,
