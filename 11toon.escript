@@ -1,5 +1,5 @@
 #!/usr/bin/env escript
-%% ./11toon.escript "http://11toon.com/bbs/board.php?bo_table=toons&stx=%EB%B0%94%EC%9D%B4%EC%98%A4%EB%A9%94%EA%B0%80&is=4228"
+%% ./11toon.escript "http://www.11toon4.com/bbs/board.php?bo_table=toons&wr_id=224472&stx=%EA%B3%A0%EC%BF%A0%EC%84%BC%28%EC%A1%B0%ED%8F%AD+%EC%84%A0%EC%83%9D%EB%8B%98%29&is=11057"
 main([URL])->
     code:add_path("deps/qrly/ebin"),
     code:add_path("deps/mochiweb/ebin"),
